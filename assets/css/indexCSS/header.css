@@ -1,4 +1,6 @@
-/* Header */
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 #header {
     transition: all 0.5s;
     z-index: 997;
@@ -19,8 +21,6 @@
     background: var(--color-header-scroll);
     padding: 12px 0;
 }
-
-/* Navigation Menu */
 .navbar {
     padding: 0;
 }
