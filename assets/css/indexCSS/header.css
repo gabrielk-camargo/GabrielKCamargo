@@ -275,3 +275,73 @@ navbar-mobile::before {
 .navbar-mobile .dropdown>.dropdown-active {
     display: block;
 }
+/*--------------------------------------------------------------
+# Banner Header
+--------------------------------------------------------------*/
+.banner {
+    height: 100vh;
+    position: relative;
+    color: var(--color-font);
+  }
+  
+  .banner .banner-content {
+    text-align: center;
+    position: absolute;
+  }
+  
+  .banner .overlay-itro {
+    background-color: var(--color-banner);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .banner .banner-title {
+    color: var(--color-font);
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .banner .banner-title {
+      font-size: 4.5rem;
+    }
+  }
+  
+  .banner .banner-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 768px) {
+    .banner .banner-subtitle {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .banner .text-slider-items {
+    display: none;
+  }
+  
+  .banner-single {
+    height: 350px;
+  }
+  
+  .banner-single .banner-content {
+    margin-top: 30px;
+  }
+  
+  .banner-single .banner-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .banner-single .banner-title {
+      font-size: 3.5rem;
+    }
+  }
