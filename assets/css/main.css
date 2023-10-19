@@ -5,14 +5,17 @@
 :root{
   --color-font: #fff;
   --color-font-secundary: #000;
+  --color-header-scroll: #000000e6;
   --color-font-menu: #131313;
   --color-font-menu-hover: #ff582e;
   --color-banner: #000000c4;
   --color-blur-menu: #ebe7e73f;
-  --color-header-scroll: #000000e6;
   --color-details: #ffffff;
+  --color-details-secundary: #000;
   --color-skill-progress: #dfe1e4;
   --color-skill-progress-bar: #2c2c2e;
+  --color-service-hover: #303131;
+  --color-service-hover-shadow: #cde1f8;
 }
 /*--------------------------------------------------------------
 # General
