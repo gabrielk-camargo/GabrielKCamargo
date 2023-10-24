@@ -231,3 +231,19 @@
       padding-left: 0rem;
     }
   }
+
+
+
+  /*
+  TESTE
+  */
+
+  .education-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .education-img {
+    max-width: 100px; /* Defina o tamanho máximo da imagem de acordo com suas necessidades */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+  }
