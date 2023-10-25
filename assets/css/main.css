@@ -8,7 +8,7 @@
   --color-header-scroll: #000000e6;
   --color-font-menu: #131313;
   --color-font-menu-hover: #ff582e;
-  --color-banner: #000000c4;
+  --color-banner: #222121c9;
   --color-blur-menu: #ebe7e73f;
   --color-details: #ffffff;
   --color-details-secundary: #000;
@@ -19,6 +19,20 @@
   --color-swiper:#ffffff ;
   --color-swiper-active:#ffffffa4 ;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--color-details);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-font-menu);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-font-menu-hover); 
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/

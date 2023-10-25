@@ -176,9 +176,6 @@
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Testimonials slider
-   */
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -186,14 +183,14 @@
       delay: 5000,
       disableOnInteraction: false
     },
-    slidesPerView: 'auto',
+    slidesPerView: 3, // Defina o número desejado de itens por slide aqui
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     }
   });
-
+  
   /**
    * Portfolio details slider
    */
@@ -204,13 +201,24 @@
       delay: 5000,
       disableOnInteraction: false
     },
+    slidesPerView: 4, // Defina o número desejado de itens por slide aqui
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     }
   });
-
+  
+  new Swiper('.other-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    }
+  });
+  
+  
   /**
    * Preloader
    */
