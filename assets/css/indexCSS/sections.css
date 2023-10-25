@@ -181,6 +181,14 @@
   display: block;
   font-size: 1.4rem;
 }
+.author-study{
+  color: var(--color-font);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1rem 0;
+  display: block;
+  font-size: 1.1rem;
+}
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
@@ -205,8 +213,8 @@
 }
 
 .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 7px;
+  height: 7px;
   background-color: var(--color-swiper);
   opacity: 1;
 }
@@ -225,25 +233,26 @@
     margin-top: 4rem;
   }
   
-  @media (min-width: 767px) {
+  @media (max-width: 767px) {
     .contact-mf .box-pl2 {
       margin-top: 3rem;
       padding-left: 0rem;
     }
+    .author-test .author{
+      font-size: 0.5rem;
+    }
+    .author-study{
+      font-size: 0.5rem;
+    }
   }
-
-
-
-  /*
-  TESTE
-  */
-
-  .education-box {
+  .swiper-slide{
+    cursor: grab;
+  }
+  .education-box{
     display: flex;
     align-items: center;
   }
-
-  .education-img {
-    max-width: 100px; /* Defina o tamanho máximo da imagem de acordo com suas necessidades */
-    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+  .education-box img{
+    margin: 2em;
   }
+ 
