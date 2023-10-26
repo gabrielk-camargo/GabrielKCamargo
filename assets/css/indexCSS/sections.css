@@ -82,6 +82,19 @@
 .service-box .s-description {
   color: var(--color-font-secundary);
 }
+@media (min-width: 767px) {
+  .s-description {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  .s-description-tec{
+    font-size: 0.8em;
+  }
+  .about-me{
+    padding-left: 3em;
+  }
+}
+
 /*--------------------------------------------------------------
   # Portfolio
   --------------------------------------------------------------*/
@@ -222,6 +235,22 @@
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-swiper-active);
 }
+/*--------------------------------------------------------------
+# INSIGHTS
+--------------------------------------------------------------*/
+
+@media (min-width: 767px) {
+  .service-content .author{
+    font-size: 0.8em;
+  }
+  .service-content .s-description{
+    font-size: 0.8em;
+  }
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
