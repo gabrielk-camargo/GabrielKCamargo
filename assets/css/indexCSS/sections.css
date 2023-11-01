@@ -284,4 +284,7 @@
   .education-box img{
     margin: 2em;
   }
- 
+ .title-form{
+  text-align: center;
+  margin: 0.9em;
+ }
