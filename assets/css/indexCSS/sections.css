@@ -94,51 +94,6 @@
     padding-left: 3em;
   }
 }
-
-/*--------------------------------------------------------------
-  # Portfolio
-  --------------------------------------------------------------*/
-.work-box {
-  margin-bottom: 3rem;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: var(--color-details);
-  color: var(--color-font-secundary);
-}
-.work-box:hover img {
-  transform: scale(1.3);
-}
-.work-img {
-  display: block;
-  overflow: hidden;
-}
-.work-img img {
-  transition: all 1s;
-}
-.work-content {
-  padding: 2rem 3% 1rem 4%;
-}
-
-.work-content .w-more {
-  font-size: 0.8rem;
-}
-
-.work-content .w-like {
-  font-size: 2.5rem;
-  float: right;
-}
-
-.work-content .w-like a {
-  color: var(--color-details-secundary);
-}
-
-.work-content .w-like .num-like {
-  font-size: 0.7rem;
-}
-
-.w-title {
-  font-size: 1.2rem;
-}
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/

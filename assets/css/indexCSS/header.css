@@ -304,6 +304,7 @@ navbar-mobile::before {
     color: var(--color-font);
     font-weight: 600;
     font-size: 3rem;
+    text-transform: uppercase;
   }
   
   @media (min-width: 768px) {
@@ -313,13 +314,13 @@ navbar-mobile::before {
   }
   
   .banner .banner-subtitle {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   
   @media (min-width: 768px) {
     .banner .banner-subtitle {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
   }
   
