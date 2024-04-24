@@ -20,21 +20,8 @@
     padding-left: 0rem;
   }
 }
-
-.skill-mf span {
-  color: var(--color-font-secundary);
-}
-
-.skill-mf .progress {
-  background-color: var(--color-skill-progress);
-  margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: var(--color-skill-progress-bar);
+.education-img{
+  width: 96px;
 }
 /*--------------------------------------------------------------
 # Services
@@ -87,10 +74,10 @@
     font-size: 0.9em;
     padding: 10px;
   }
-  .s-description-tec{
+  .s-description-tec {
     font-size: 0.8em;
   }
-  .about-me{
+  .about-me {
     padding-left: 3em;
   }
 }
@@ -163,8 +150,8 @@
   line-height: 1.5;
   box-shadow: 0 0 0 10px var(--color-service-hover-shadow);
 }
-.ico-circle:hover{
-    transform: scale(1.1);
+.ico-circle:hover {
+  transform: scale(1.1);
 }
 
 .counter-num .counter {
@@ -194,7 +181,7 @@
   display: block;
   font-size: 1.4rem;
 }
-.author-study{
+.author-study {
   color: var(--color-font);
   text-transform: uppercase;
   font-weight: 600;
@@ -240,51 +227,48 @@
 --------------------------------------------------------------*/
 
 @media (min-width: 767px) {
-  .service-content .author{
+  .service-content .author {
     font-size: 0.8em;
   }
-  .service-content .s-description{
+  .service-content .s-description {
     font-size: 0.8em;
   }
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .footer-paralax {
-    padding: 4rem 0 0 0;
+  padding: 4rem 0 0 0;
+}
+
+.contact-mf {
+  margin-top: 4rem;
+}
+
+@media (max-width: 767px) {
+  .contact-mf .box-pl2 {
+    margin-top: 3rem;
+    padding-left: 0rem;
   }
-  
-  .contact-mf {
-    margin-top: 4rem;
+  .author-test .author {
+    font-size: 0.5rem;
   }
-  
-  @media (max-width: 767px) {
-    .contact-mf .box-pl2 {
-      margin-top: 3rem;
-      padding-left: 0rem;
-    }
-    .author-test .author{
-      font-size: 0.5rem;
-    }
-    .author-study{
-      font-size: 0.5rem;
-    }
+  .author-study {
+    font-size: 0.5rem;
   }
-  .swiper-slide{
-    cursor: grab;
-  }
-  .education-box{
-    display: flex;
-    align-items: center;
-  }
-  .education-box img{
-    margin: 2em;
-  }
- .title-form{
+}
+.swiper-slide {
+  cursor: grab;
+}
+.education-box {
+  display: flex;
+  align-items: center;
+}
+.education-box img {
+  margin: 2em;
+}
+.title-form {
   text-align: center;
   margin: 0.9em;
- }
+}
